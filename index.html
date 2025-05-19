@@ -3,14 +3,163 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Great Revelation</title>
+  <title>The Great Revelation – by M.S. Alaoui</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #222;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #222, #444);
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .chapter-preview {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .buy-button {
+      display: inline-block;
+      background: #d35400;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    footer {
+      background: #1a1a1a;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to The Great Revelation</h1>
-  <p>This site explores the discoveries of Mohamed Alaoui Soulimani's groundbreaking book.</p>
-  <div id="app"></div>
 
-  <script type="module" src="main.js"></script>
+  <header>
+    <h1>The Great Revelation</h1>
+    <p>By M.S. Alaoui</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#chapters">Chapters</a>
+    <a href="#buy">Buy the Book</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Unveiling Humanity’s True Origin and Purpose</h1>
+    <p>A paradigm-shifting interpretation of the Quran — merging evolution, divine justice, reincarnation, and the soul’s journey to peace.</p>
+    <a href="#buy" class="buy-button">Get the Book Now</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About the Book</h2>
+    <p>
+      <em>The Great Revelation</em> is not just a book — it is a wake-up call. Drawing from the Quran alone and rejecting centuries of distortion, M.S. Alaoui invites you to rediscover divine guidance through a purely linguistic and philosophical lens. 
+      From the reconciliation of evolution with creation, to the unveiling of the human soul’s cycles of rebirth, the book challenges everything you thought you knew — while providing a method for real spiritual understanding.
+    </p>
+  </section>
+
+  <section id="chapters" class="section">
+    <h2>Chapter Previews</h2>
+
+    <div class="chapter-preview">
+      <h3>Chapter 1 – The Great News</h3>
+      <p>Reveals the Quran’s hidden answer to the debate between creation and evolution — with a groundbreaking view on Adam as a prototype, not a first man.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 2 – Good vs. Evil</h3>
+      <p>Explores the cosmic role of evil and the duality within the human soul — uncovering the mystery of Iblis, the Jinn, and the spiritual psychology of humanity.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 3 – Divine Justice</h3>
+      <p>Defines *Al-Haqq* — God’s law of cause and effect — and explains how perfect justice governs all creation, including reincarnation and accountability.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 4 – Resurrection and Rebirth</h3>
+      <p>Presents reincarnation not as philosophy but as a Quranic law — where the soul is refined through multiple lives in its journey toward peace.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 5 – Ommo al-Kitāb</h3>
+      <p>Reinterprets the Quran’s self-description as both clear and veiled — and provides a new method to decode the true intent of God’s message.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 6 – Controversial Women’s Verses</h3>
+      <p>Restores divine justice to verses long used to oppress women — showing, through linguistic precision, that God never sanctioned inequality.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 7 – Iqrae</h3>
+      <p>Explores the divine command to seek knowledge — where reading becomes an act of enlightenment, and experience the path to salvation.</p>
+    </div>
+
+    <div class="chapter-preview">
+      <h3>Chapter 8 – Islam vs. Al-Islam</h3>
+      <p>Distinguishes religious identity from spiritual truth — showing that true submission (*Al-Islam*) is the soul’s journey back to harmony with God.</p>
+    </div>
+  </section>
+
+  <section id="buy" class="section">
+    <h2>Buy the Book</h2>
+    <p>The Great Revelation is available now on Kindle. Paperback and hardcover versions coming soon.</p>
+    <a class="buy-button" href="https://www.amazon.com/dp/B0D2J5TLGP" target="_blank">Buy on Amazon</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>For interviews, collaborations, or questions about the book, please email:</p>
+    <p><strong>contact@thegreatrevelation.org</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2025 M.S. Alaoui. All rights reserved.
+  </footer>
+
 </body>
 </html>
