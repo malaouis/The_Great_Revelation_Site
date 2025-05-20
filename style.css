@@ -136,4 +136,45 @@ footer {
   .chapter-preview {
     padding: 15px;
   }
+  .slider-frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+.slider-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 10px;
+}
+.quote-card {
+  flex: 0 0 300px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  min-height: 180px;
+}
+.quote-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
+.quote-card p {
+  font-style: italic;
+  font-size: 1em;
+  color: #555;
+}
+.slider-btn {
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 10px;
+  color: #333;
+}
 }
