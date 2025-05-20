@@ -261,5 +261,13 @@
     &copy; 2025 M.S. Alaoui. All rights reserved.
   </footer>
 
+  <script>
+    function scrollQuotes(direction) {
+      const track = document.getElementById('quote-track');
+      const scrollAmount = 320;
+      track.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+    }
+  </script>
+
 </body>
 </html>
