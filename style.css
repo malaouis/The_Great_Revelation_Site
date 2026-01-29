@@ -177,9 +177,78 @@ footer {
   color: #444;
   padding: 0 10px;
 }
-/* Reserve enough space for wrapped nav on phones */
+
+/* Close the mobile media query properly */
+body {
+  /* default already set above */
+}
+
+/* === RESPONSIVE === */
 @media screen and (max-width: 768px) {
+  header h1, .hero h1 {
+    font-size: 2em;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+    font-size: 0.95em;
+  }
+
+  .chapter-preview {
+    padding: 15px;
+  }
+
+  .slider-frame {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+
+  .slider-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .quote-card {
+    flex: 0 0 300px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.07);
+    font-size: 0.98em;
+  }
+
+  .quote-card h3 {
+    font-size: 1.15em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+
+  .quote-card p {
+    font-style: italic;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  .slider-btn {
+    background: none;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: #444;
+    padding: 0 10px;
+  }
+
+  /* Reserve enough space for wrapped nav on phones */
   body {
-    padding-top: 120px; /* try 110–140 if needed */
+    padding-top: 120px; /* adjust to 130/140 if needed */
   }
 }
+
