@@ -177,3 +177,9 @@ footer {
   color: #444;
   padding: 0 10px;
 }
+/* Reserve enough space for wrapped nav on phones */
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 120px; /* try 110–140 if needed */
+  }
+}
